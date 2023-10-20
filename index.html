@@ -16,3 +16,15 @@
 <body>
   <button id="apple-music-authorize">apple-music-authorize</button>
 </body>
+<script>
+  document.addEventListener('musickitloaded', function() {
+  // MusicKit global is now defined
+  MusicKit.configure({
+    developerToken: 'MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgbMHemdMDsSbHI1foN6BjA6HRqcJnIPx55eCPm6Pm7P2gCgYIKoZIzj0DAQehRANCAARs5hZRZcDz+tf2zcM4Jn1rgBC8iqnd7w7pVBqxce4MlT7wijjDMGrVrJ3q3KDm8S6nZRotWFBwPPIpcXxunvmT',
+    app: {
+      name: 'Pong',
+      build: '2023.10.20'
+    }
+  });
+});
+</script>
